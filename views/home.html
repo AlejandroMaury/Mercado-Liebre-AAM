@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mercado Liebre</title>
+    <title> Mercado Liebre AAM</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="/css/styles.css">
@@ -15,17 +15,18 @@
       
     </div>
     <div class="form" action="#" method="GET">
-        <div class="input">Buscar productos, marcas y más</div>
+        
+        <input class="input" type="search" name="Buscar" placeholder="Buscar productos, marcas y más" />
         <div class="submit"><i class="fa fa-search"></i></div>
     </div>
-    <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-</div>
+   
 
-      <img src="./images/logo-mercado-liebre.svg" />
-      <input type="search" name="Buscar" />
-      <h3>Comprá en cuotas y sin tarjeta credito</h3>
-      <nav>
-        <ul>
+      <img class="first-logo" src="./images/logo-mercado-liebre.svg" />
+      
+      <h3 class="buy"><i class="fas fa-hand-holding-usd"></i>
+        Comprá en cuotas y sin tarjeta credito</h3>
+      <nav class="nav-bar">
+        <ul class="list-one">
           <li><a href="https://ofertas.com" target="_blank"> Ofertas</a></li>
           <li>
             <a href="https://TiendasOficiales.com" target="_blank">
@@ -36,17 +37,22 @@
           <li><a href="https://ayuda.com" target="_blank"> Ayuda </a></li>
         </ul>
 
-        <ul>
+        <ul class="list-two">
           <li>
             <a href="https://creartucuenta.com" target="_blank">
-              Creá tu cuenta</a
-            >
+              Creá tu cuenta
+              <i class="far fa-id-card"></i>
+              </a>
           </li>
           <li>
-            <a href="https://TiendasOficiales.com" target="_blank"> Ingresá</a>
+            <a href="https://TiendasOficiales.com" target="_blank"> Ingresá 
+              <i class="fas fa-sign-in-alt"></i>
+            </a>
           </li>
           <li>
-            <a href="https://miscompras.com" target="_blank"> Mis Compras </a>
+            <a href="https://miscompras.com" target="_blank"> Mis Compras 
+              <i class="fas fa-shopping-basket"></i>
+            </a>
           </li>
         </ul>
       </nav>
@@ -55,6 +61,9 @@
         <i class="fas fa-bars"></i>
         </div>
     </header>
+    <section class="segundo-logo">
+      <img src="/images/img-home-banner.jpg" alt="banner mercado libre ">
+    </section>
     <main>
       <section>
         <h3>Última vista</h3>
@@ -135,18 +144,20 @@
     </main>
     <footer>
       <section>
+        <i id="TC" class="fa-solid fa-credit-card"></i>
         <h3>Pagá con tarjeta o en efectivo</h3>
         <p>
           Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
           efectivo en puntos de pago. ¡Y siempre es seguro!
         </p>
 
+        <i id="TC" class="fa-solid fa-gift"></i>
         <h3>Envío gratis desde $ 2.500</h3>
         <p>
           Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
           miles de productos. Es un beneficio de Mercado Puntos.
         </p>
-
+        <i id="TC" class="fa-solid fa-user-shield"></i>
         <h3>Seguridad, de principio a fin</h3>
         <p>
           ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
@@ -155,7 +166,7 @@
 
       </section>
 
-      <h3>Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
+      <h3 class="cr">Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
     
     </footer>
   </body>
